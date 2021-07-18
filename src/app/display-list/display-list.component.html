@@ -1,0 +1,43 @@
+<div class="row">
+    <div class="col-md-3 category-list ">
+        <div>
+            <a (click)="filterCategory('All')"> All</a>
+        </div>
+        <div>
+            <a (click)="filterCategory('Financial')"> Financial</a>
+        </div>
+        <div>
+            <a (click)="filterCategory('Technical')"> Technical</a>
+        </div>
+        <div>
+            <a (click)="filterCategory('Marketing')"> Marketing</a>
+        </div>
+        <div>
+            <a (click)="filterCategory('Human Resource')"> Human Resource</a>
+        </div>
+    </div>
+    <div class="col-md-8 display-list ">
+        <div>
+            <div>
+                <input [(ngModel)]="filter" name="filter" (keyup)="getTextFilterData()" placeholder="Start typing document name" class="form-control">
+            </div>
+        </div>
+
+        <div class=" row">
+            <div *ngFor="let list of listName ; index as i; trackBy:trackByCourseName" class="col-md-3 margin-top">
+                <div class="card">
+                    <div class="card-body">
+                        <div [ngClass]="{
+                          'pink' : list.Color == 'Pink', 
+                          'green' : list.Color == 'green', 
+                          'yellow' : list.Color == 'yellow', 'light-green' : list.Color == 'lightGreen'   }"
+                            class="pull-right list-text-title">{{list.Category}}</div>
+                        <p class="card-text list-text">{{list.CourseName}}</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>

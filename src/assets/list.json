@@ -1,0 +1,48 @@
+[{
+		"CourseName": "Technical instructables",
+		"Category": "Technical",
+		"Color": "Pink"
+	},
+	{
+		"CourseName": "Installation guide",
+		"Category": "Technical",
+		"Color": "Pink"
+	},
+	{
+		"CourseName": "Career opportunities",
+		"Category": "Human Resource",
+		"Color": "green"
+	},
+	{
+		"CourseName": "Customer onbording",
+		"Category": "Financial",
+		"Color": "lightGreen"
+	},
+	{
+		"CourseName": "Outlet branding",
+		"Category": "Marketing",
+		"Color": "yellow"
+	},
+{
+		"CourseName": "Accounting procedure",
+		"Category": "Financial",
+		"Color": "lightGreen"
+	},
+{
+		"CourseName": "Training",
+		"Category": "Human Resource",
+		"Color": "green"
+	},
+{
+		"CourseName": "Printing guidance",
+		"Category": "Marketing",
+		"Color": "yellow"
+	},
+{
+		"CourseName": "Technical support",
+		"Category": "Technical",
+		"Color": "Pink"
+	}
+
+
+]
